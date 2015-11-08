@@ -9,3 +9,4 @@ applications:
   services:
   - Relationship Extraction-81
   buildpack: python_buildpack
+  command: pip install --upgrade watson-developer-cloud

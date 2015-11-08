@@ -7,4 +7,5 @@ applications:
   host: EmiApp
   disk_quota: 1024M
   services:
-  - Relationship_Extraction
+  - Relationship Extraction-oc
+  buildpack: python_buildpack

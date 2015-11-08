@@ -8,8 +8,8 @@ Created on Sat Nov 07 16:26:02 2015
 import requests
 import json
 
-url = 'http://localhost:5000/text'
-payload = {'text': 'I want to travel to Cuba from San Francisco next Friday'}
+url = 'http://emix.mybluemix.net/text'
+payload = {'text': 'I want to travel to Dubai on November 24'}
 
 r = requests.post(url, json=payload)
 
