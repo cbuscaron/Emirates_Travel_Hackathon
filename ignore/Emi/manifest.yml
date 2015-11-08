@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Emi
+  host: Emi
+  disk_quota: 1024M
+  services:
+  - Relationship Extraction-81
+  buildpack: python_buildpack
