@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455CE5A21BEE96320056ABC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5A11BEE96320056ABC1 /* main.m */; };
+		455CE5A51BEE96320056ABC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5A41BEE96320056ABC1 /* AppDelegate.m */; };
+		455CE5AB1BEE96320056ABC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5A91BEE96320056ABC1 /* Main.storyboard */; };
+		455CE5AE1BEE96320056ABC1 /* EmiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5AC1BEE96320056ABC1 /* EmiApp.xcdatamodeld */; };
+		455CE5B01BEE96320056ABC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5AF1BEE96320056ABC1 /* Assets.xcassets */; };
+		455CE5B31BEE96320056ABC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5B11BEE96320056ABC1 /* LaunchScreen.storyboard */; };
+		455CE5BE1BEE96320056ABC1 /* EmiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5BD1BEE96320056ABC1 /* EmiAppTests.m */; };
+		455CE5C91BEE96320056ABC1 /* EmiAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5C81BEE96320056ABC1 /* EmiAppUITests.m */; };
+		455CE5D71BEE9D080056ABC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5D61BEE9D080056ABC1 /* AudioToolbox.framework */; };
+		455CE5D91BEE9D0F0056ABC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5D81BEE9D0F0056ABC1 /* AVFoundation.framework */; };
+		455CE5DB1BEE9D180056ABC1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5DA1BEE9D180056ABC1 /* CFNetwork.framework */; };
+		455CE5DD1BEE9D250056ABC1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5DC1BEE9D250056ABC1 /* CoreAudio.framework */; };
+		455CE5DF1BEE9D640056ABC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5DE1BEE9D640056ABC1 /* Foundation.framework */; };
+		455CE5E11BEE9D710056ABC1 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5E01BEE9D710056ABC1 /* libicucore.tbd */; };
+		455CE5E31BEE9D780056ABC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5E21BEE9D780056ABC1 /* QuartzCore.framework */; };
+		455CE5E51BEE9D800056ABC1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5E41BEE9D800056ABC1 /* Security.framework */; };
+		455CE5E71BEE9E8A0056ABC1 /* watsonsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CE5E61BEE9E8A0056ABC1 /* watsonsdk.framework */; };
+		455CE5EB1BEE9EF80056ABC1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5EA1BEE9EF80056ABC1 /* MainViewController.m */; };
+		455CE5EE1BEF4E280056ABC1 /* background-emi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5ED1BEF4E280056ABC1 /* background-emi.jpg */; };
+		455CE5F01BEF547C0056ABC1 /* Emi-Single-Day-View_0000_Microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5EF1BEF547C0056ABC1 /* Emi-Single-Day-View_0000_Microphone.png */; };
+		455CE5F21BEF69030056ABC1 /* Emi-Single-Day-View_0001_Emirates-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5F11BEF69030056ABC1 /* Emi-Single-Day-View_0001_Emirates-Logo.png */; };
+		455CE5F51BEF6A630056ABC1 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5F41BEF6A630056ABC1 /* ResultViewController.m */; };
+		455CE5F71BEFA5680056ABC1 /* Flight-Confirmation-Page_0000_Booked-Check-Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5F61BEFA5670056ABC1 /* Flight-Confirmation-Page_0000_Booked-Check-Mark.png */; };
+		455CE5FA1BEFA5A50056ABC1 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE5F91BEFA5A50056ABC1 /* ConfirmationViewController.m */; };
+		455CE5FC1BEFAED10056ABC1 /* Launch Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 455CE5FB1BEFAED10056ABC1 /* Launch Screen.jpg */; };
+		45CCF0021BEFD2140094366D /* Airbnb.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CCF0011BEFD2140094366D /* Airbnb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		455CE5BA1BEE96320056ABC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455CE5951BEE96320056ABC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455CE59C1BEE96320056ABC1;
+			remoteInfo = EmiApp;
+		};
+		455CE5C51BEE96320056ABC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455CE5951BEE96320056ABC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455CE59C1BEE96320056ABC1;
+			remoteInfo = EmiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		455CE59D1BEE96320056ABC1 /* EmiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CE5A11BEE96320056ABC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455CE5A31BEE96320056ABC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		455CE5A41BEE96320056ABC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		455CE5AA1BEE96320056ABC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455CE5AD1BEE96320056ABC1 /* EmiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmiApp.xcdatamodel; sourceTree = "<group>"; };
+		455CE5AF1BEE96320056ABC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455CE5B21BEE96320056ABC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455CE5B41BEE96320056ABC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CE5B91BEE96320056ABC1 /* EmiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CE5BD1BEE96320056ABC1 /* EmiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmiAppTests.m; sourceTree = "<group>"; };
+		455CE5BF1BEE96320056ABC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CE5C41BEE96320056ABC1 /* EmiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CE5C81BEE96320056ABC1 /* EmiAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmiAppUITests.m; sourceTree = "<group>"; };
+		455CE5CA1BEE96320056ABC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CE5D61BEE9D080056ABC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		455CE5D81BEE9D0F0056ABC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		455CE5DA1BEE9D180056ABC1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		455CE5DC1BEE9D250056ABC1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		455CE5DE1BEE9D640056ABC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		455CE5E01BEE9D710056ABC1 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		455CE5E21BEE9D780056ABC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		455CE5E41BEE9D800056ABC1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		455CE5E61BEE9E8A0056ABC1 /* watsonsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = watsonsdk.framework; path = ../watsonsdk.framework; sourceTree = "<group>"; };
+		455CE5E91BEE9EF80056ABC1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		455CE5EA1BEE9EF80056ABC1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		455CE5ED1BEF4E280056ABC1 /* background-emi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-emi.jpg"; sourceTree = "<group>"; };
+		455CE5EF1BEF547C0056ABC1 /* Emi-Single-Day-View_0000_Microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Emi-Single-Day-View_0000_Microphone.png"; sourceTree = "<group>"; };
+		455CE5F11BEF69030056ABC1 /* Emi-Single-Day-View_0001_Emirates-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Emi-Single-Day-View_0001_Emirates-Logo.png"; sourceTree = "<group>"; };
+		455CE5F31BEF6A630056ABC1 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		455CE5F41BEF6A630056ABC1 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		455CE5F61BEFA5670056ABC1 /* Flight-Confirmation-Page_0000_Booked-Check-Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flight-Confirmation-Page_0000_Booked-Check-Mark.png"; sourceTree = "<group>"; };
+		455CE5F81BEFA5A50056ABC1 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
+		455CE5F91BEFA5A50056ABC1 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
+		455CE5FB1BEFAED10056ABC1 /* Launch Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Launch Screen.jpg"; sourceTree = "<group>"; };
+		45CCF0011BEFD2140094366D /* Airbnb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airbnb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455CE59A1BEE96320056ABC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CE5E71BEE9E8A0056ABC1 /* watsonsdk.framework in Frameworks */,
+				455CE5E51BEE9D800056ABC1 /* Security.framework in Frameworks */,
+				455CE5E31BEE9D780056ABC1 /* QuartzCore.framework in Frameworks */,
+				455CE5E11BEE9D710056ABC1 /* libicucore.tbd in Frameworks */,
+				455CE5DF1BEE9D640056ABC1 /* Foundation.framework in Frameworks */,
+				455CE5D91BEE9D0F0056ABC1 /* AVFoundation.framework in Frameworks */,
+				455CE5DD1BEE9D250056ABC1 /* CoreAudio.framework in Frameworks */,
+				455CE5DB1BEE9D180056ABC1 /* CFNetwork.framework in Frameworks */,
+				455CE5D71BEE9D080056ABC1 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5B61BEE96320056ABC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5C11BEE96320056ABC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455CE5941BEE96320056ABC1 = {
+			isa = PBXGroup;
+			children = (
+				455CE59F1BEE96320056ABC1 /* EmiApp */,
+				455CE5BC1BEE96320056ABC1 /* EmiAppTests */,
+				455CE5C71BEE96320056ABC1 /* EmiAppUITests */,
+				455CE59E1BEE96320056ABC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		455CE59E1BEE96320056ABC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455CE59D1BEE96320056ABC1 /* EmiApp.app */,
+				455CE5B91BEE96320056ABC1 /* EmiAppTests.xctest */,
+				455CE5C41BEE96320056ABC1 /* EmiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455CE59F1BEE96320056ABC1 /* EmiApp */ = {
+			isa = PBXGroup;
+			children = (
+				455CE5EC1BEF4E1C0056ABC1 /* Images */,
+				455CE5E81BEE9E960056ABC1 /* Frameworks */,
+				455CE5A31BEE96320056ABC1 /* AppDelegate.h */,
+				455CE5A41BEE96320056ABC1 /* AppDelegate.m */,
+				455CE5E91BEE9EF80056ABC1 /* MainViewController.h */,
+				455CE5EA1BEE9EF80056ABC1 /* MainViewController.m */,
+				455CE5F31BEF6A630056ABC1 /* ResultViewController.h */,
+				455CE5F41BEF6A630056ABC1 /* ResultViewController.m */,
+				455CE5F81BEFA5A50056ABC1 /* ConfirmationViewController.h */,
+				455CE5F91BEFA5A50056ABC1 /* ConfirmationViewController.m */,
+				455CE5A91BEE96320056ABC1 /* Main.storyboard */,
+				455CE5AF1BEE96320056ABC1 /* Assets.xcassets */,
+				455CE5B11BEE96320056ABC1 /* LaunchScreen.storyboard */,
+				455CE5B41BEE96320056ABC1 /* Info.plist */,
+				455CE5AC1BEE96320056ABC1 /* EmiApp.xcdatamodeld */,
+				455CE5A01BEE96320056ABC1 /* Supporting Files */,
+			);
+			path = EmiApp;
+			sourceTree = "<group>";
+		};
+		455CE5A01BEE96320056ABC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				455CE5A11BEE96320056ABC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		455CE5BC1BEE96320056ABC1 /* EmiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				455CE5BD1BEE96320056ABC1 /* EmiAppTests.m */,
+				455CE5BF1BEE96320056ABC1 /* Info.plist */,
+			);
+			path = EmiAppTests;
+			sourceTree = "<group>";
+		};
+		455CE5C71BEE96320056ABC1 /* EmiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				455CE5C81BEE96320056ABC1 /* EmiAppUITests.m */,
+				455CE5CA1BEE96320056ABC1 /* Info.plist */,
+			);
+			path = EmiAppUITests;
+			sourceTree = "<group>";
+		};
+		455CE5E81BEE9E960056ABC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455CE5E61BEE9E8A0056ABC1 /* watsonsdk.framework */,
+				455CE5E41BEE9D800056ABC1 /* Security.framework */,
+				455CE5E21BEE9D780056ABC1 /* QuartzCore.framework */,
+				455CE5E01BEE9D710056ABC1 /* libicucore.tbd */,
+				455CE5DE1BEE9D640056ABC1 /* Foundation.framework */,
+				455CE5DC1BEE9D250056ABC1 /* CoreAudio.framework */,
+				455CE5DA1BEE9D180056ABC1 /* CFNetwork.framework */,
+				455CE5D81BEE9D0F0056ABC1 /* AVFoundation.framework */,
+				455CE5D61BEE9D080056ABC1 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455CE5EC1BEF4E1C0056ABC1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				45CCF0011BEFD2140094366D /* Airbnb.png */,
+				455CE5FB1BEFAED10056ABC1 /* Launch Screen.jpg */,
+				455CE5F61BEFA5670056ABC1 /* Flight-Confirmation-Page_0000_Booked-Check-Mark.png */,
+				455CE5F11BEF69030056ABC1 /* Emi-Single-Day-View_0001_Emirates-Logo.png */,
+				455CE5EF1BEF547C0056ABC1 /* Emi-Single-Day-View_0000_Microphone.png */,
+				455CE5ED1BEF4E280056ABC1 /* background-emi.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455CE59C1BEE96320056ABC1 /* EmiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CE5CD1BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiApp" */;
+			buildPhases = (
+				455CE5991BEE96320056ABC1 /* Sources */,
+				455CE59A1BEE96320056ABC1 /* Frameworks */,
+				455CE59B1BEE96320056ABC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmiApp;
+			productName = EmiApp;
+			productReference = 455CE59D1BEE96320056ABC1 /* EmiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		455CE5B81BEE96320056ABC1 /* EmiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CE5D01BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiAppTests" */;
+			buildPhases = (
+				455CE5B51BEE96320056ABC1 /* Sources */,
+				455CE5B61BEE96320056ABC1 /* Frameworks */,
+				455CE5B71BEE96320056ABC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455CE5BB1BEE96320056ABC1 /* PBXTargetDependency */,
+			);
+			name = EmiAppTests;
+			productName = EmiAppTests;
+			productReference = 455CE5B91BEE96320056ABC1 /* EmiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		455CE5C31BEE96320056ABC1 /* EmiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CE5D31BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiAppUITests" */;
+			buildPhases = (
+				455CE5C01BEE96320056ABC1 /* Sources */,
+				455CE5C11BEE96320056ABC1 /* Frameworks */,
+				455CE5C21BEE96320056ABC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455CE5C61BEE96320056ABC1 /* PBXTargetDependency */,
+			);
+			name = EmiAppUITests;
+			productName = EmiAppUITests;
+			productReference = 455CE5C41BEE96320056ABC1 /* EmiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455CE5951BEE96320056ABC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LLT;
+				TargetAttributes = {
+					455CE59C1BEE96320056ABC1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ZRG2J3VTE5;
+					};
+					455CE5B81BEE96320056ABC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 455CE59C1BEE96320056ABC1;
+					};
+					455CE5C31BEE96320056ABC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 455CE59C1BEE96320056ABC1;
+					};
+				};
+			};
+			buildConfigurationList = 455CE5981BEE96320056ABC1 /* Build configuration list for PBXProject "EmiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455CE5941BEE96320056ABC1;
+			productRefGroup = 455CE59E1BEE96320056ABC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455CE59C1BEE96320056ABC1 /* EmiApp */,
+				455CE5B81BEE96320056ABC1 /* EmiAppTests */,
+				455CE5C31BEE96320056ABC1 /* EmiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455CE59B1BEE96320056ABC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CE5B31BEE96320056ABC1 /* LaunchScreen.storyboard in Resources */,
+				45CCF0021BEFD2140094366D /* Airbnb.png in Resources */,
+				455CE5F71BEFA5680056ABC1 /* Flight-Confirmation-Page_0000_Booked-Check-Mark.png in Resources */,
+				455CE5EE1BEF4E280056ABC1 /* background-emi.jpg in Resources */,
+				455CE5FC1BEFAED10056ABC1 /* Launch Screen.jpg in Resources */,
+				455CE5F01BEF547C0056ABC1 /* Emi-Single-Day-View_0000_Microphone.png in Resources */,
+				455CE5F21BEF69030056ABC1 /* Emi-Single-Day-View_0001_Emirates-Logo.png in Resources */,
+				455CE5B01BEE96320056ABC1 /* Assets.xcassets in Resources */,
+				455CE5AB1BEE96320056ABC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5B71BEE96320056ABC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5C21BEE96320056ABC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455CE5991BEE96320056ABC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CE5A51BEE96320056ABC1 /* AppDelegate.m in Sources */,
+				455CE5FA1BEFA5A50056ABC1 /* ConfirmationViewController.m in Sources */,
+				455CE5A21BEE96320056ABC1 /* main.m in Sources */,
+				455CE5AE1BEE96320056ABC1 /* EmiApp.xcdatamodeld in Sources */,
+				455CE5F51BEF6A630056ABC1 /* ResultViewController.m in Sources */,
+				455CE5EB1BEE9EF80056ABC1 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5B51BEE96320056ABC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CE5BE1BEE96320056ABC1 /* EmiAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CE5C01BEE96320056ABC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CE5C91BEE96320056ABC1 /* EmiAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		455CE5BB1BEE96320056ABC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455CE59C1BEE96320056ABC1 /* EmiApp */;
+			targetProxy = 455CE5BA1BEE96320056ABC1 /* PBXContainerItemProxy */;
+		};
+		455CE5C61BEE96320056ABC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455CE59C1BEE96320056ABC1 /* EmiApp */;
+			targetProxy = 455CE5C51BEE96320056ABC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		455CE5A91BEE96320056ABC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455CE5AA1BEE96320056ABC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455CE5B11BEE96320056ABC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455CE5B21BEE96320056ABC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455CE5CB1BEE96320056ABC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		455CE5CC1BEE96320056ABC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455CE5CE1BEE96320056ABC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EmiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		455CE5CF1BEE96320056ABC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EmiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		455CE5D11BEE96320056ABC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmiApp.app/EmiApp";
+			};
+			name = Debug;
+		};
+		455CE5D21BEE96320056ABC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmiApp.app/EmiApp";
+			};
+			name = Release;
+		};
+		455CE5D41BEE96320056ABC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmiApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		455CE5D51BEE96320056ABC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.EmiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmiApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455CE5981BEE96320056ABC1 /* Build configuration list for PBXProject "EmiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CE5CB1BEE96320056ABC1 /* Debug */,
+				455CE5CC1BEE96320056ABC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CE5CD1BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CE5CE1BEE96320056ABC1 /* Debug */,
+				455CE5CF1BEE96320056ABC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CE5D01BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CE5D11BEE96320056ABC1 /* Debug */,
+				455CE5D21BEE96320056ABC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CE5D31BEE96320056ABC1 /* Build configuration list for PBXNativeTarget "EmiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CE5D41BEE96320056ABC1 /* Debug */,
+				455CE5D51BEE96320056ABC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		455CE5AC1BEE96320056ABC1 /* EmiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				455CE5AD1BEE96320056ABC1 /* EmiApp.xcdatamodel */,
+			);
+			currentVersion = 455CE5AD1BEE96320056ABC1 /* EmiApp.xcdatamodel */;
+			path = EmiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 455CE5951BEE96320056ABC1 /* Project object */;
+}
