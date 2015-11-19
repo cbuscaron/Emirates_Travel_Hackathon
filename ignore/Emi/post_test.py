@@ -9,7 +9,7 @@ import requests
 import json
 
 url = 'http://emix.mybluemix.net/text'
-payload = {'text': 'I want to travel to Dubai on November 24'}
+payload = {'text': 'Find flight for me and my wife '}
 
 r = requests.post(url, json=payload)
 
